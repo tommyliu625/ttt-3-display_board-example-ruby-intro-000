@@ -1,4 +1,5 @@
 def say_hello_x_time(10)
-  x.times.do
-  puts "Hello World"
+  x.times do
+    puts "Hello World"
   end
+end

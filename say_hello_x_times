@@ -1,5 +1,4 @@
-def say_hello_x_time(10)
-  x.times do
-    puts "Hello World"
-  end
+def greeting("name")
+  puts "Hello #{name}!"
 end
+greeting("tommy")
